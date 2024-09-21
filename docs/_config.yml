@@ -1,0 +1,42 @@
+include: ["_pages"]
+
+title: (KA)^2 Wedding
+email: matrimony@wedding.gov
+description: W E D D I N G.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.kristeenan.com"
+repository: "albee/kristeenan-wedding"
+
+# Build settings
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+
+minimal_mistakes_skin: "air" #, "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+teaser: /assets/images/click.png
+
+logo: /assets/images/click.png
+masthead_title: "(KA)^2 Wedding"
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+
+atom_feed:
+  hide: true
+footer:
+  links:
+  #   - label: "Twitter"
+  #     icon: "fab fa-fw fa-twitter-square"
+  #     url: "https://twitter.com/mmistakes"
+  #   - label: "GitHub"
+  #     icon: "fab fa-fw fa-github"
+  #     url: "https://github.com/mmistakes"
+  #   - label: "Instagram"
+  #     icon: "fab fa-fw fa-instagram"
+  #     url: "https://instagram.com/mmistakes"
