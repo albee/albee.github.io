@@ -1,5 +1,5 @@
 ---
-title:  "Our Story"
+title:  "about"
 layout: single
 classes: wide
 permalink: /about/
@@ -8,12 +8,15 @@ comments: true
 
 ![hi!]({{ site.url }}{{ site.baseurl }}/assets/images/about.png)
 
-It all started in 2017 when Kristina and Keenan won their college senior design competition together, with Kristina discovering that Keenan was both an excellent business ***and*** life partner. Emboldened, Kristina ventured outside Keenan's East Campus dorm late one night, luring Keenan outside with
-the promise of looking through a telescope on a remarkably clear New York City night. Then Kristina ran off to Singapore
-to work on satellites while they both started the ultimate long distance relationship (by measure of both great circle distance and time zones).
-Keenan eventually convinced Kristina that Boston was a great place to live in the winter and they both enjoyed the joys of graduate school and qualifying exams
-and---perhaps more so---the nearby White Mountains in New Hampshire. Saying goodbye to many wonderful friends on the east coast, they uprooted
-for San Francisco, followed by Los Angeles for Kristina to take her turn learning about rockets and taking ***more*** qualifying exams. They now happily roam
-around Los Angeles, often by bike, and can be found by turns on top of a nearby mountain or checking out every Art Deco building in Los Angeles County on Keenan's very detailed and very necessary map.
+### Biography
+Dr. Keenan Albee is a Robotics Technologist in the Maritime and Multi-Agent Autonomy group at NASA's Jet Propulsion Laboratory. Keenan received a Ph.D. in Aeronautics and Astronautics (Autonomous Systems) from MIT in 2022 under a NASA Space Technology Research Fellowship.
 
-<small>( >:( Kristina made me make this tab.)</small>
+At MIT, Keenan was the lead for the Space Systems Laboratory's research involving the Astrobee robots aboard the ISS, running multiple international on-orbit robotic autonomy collaborations such as autonomous rendezvous with tumbling targets. Keenan's research focuses on motion planning and control under uncertainty for mobile robotic systems, leveraging real-time tools to make autonomous robotic operations safer and more efficient. At JPL, Keenan continues to work on deploying innovative robotic systems in new and challenging environments.
+
+### Education
+Ph.D. in Aeronautics and Astronautics (Autonomous Systems), Massachusetts Institute of Technology, 2022
+S.M. in Aeronautics and Astronautics, Massachusetts Institute of Technology, 2019
+B.S. in Mechanical Engineering, Columbia University, 2017
+
+### Research Interests
+Robotic motion planning; safe motion planning under uncertainty; model predictive control, optimal control, and trajectory optimization; information-theoretic planning

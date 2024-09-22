@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-permalink: /rsvp/
+permalink: /cv/
 comments: true
 ---
 

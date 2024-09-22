@@ -1,14 +1,8 @@
 # main links
 main:
-  - title: "Our Story"
-    url: /about/
-  - title: "Schedule"
-    url: /schedule/
-  - title: "Travel"
-    url: /travel/
-  - title: "Venue"
-    url: /venue/
-  - title: "Gallery"
-    url: /gallery/
-  - title: "RSVP"
-    url: /rsvp/
+  - title: "Home"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "CV"
+    url: /cv/

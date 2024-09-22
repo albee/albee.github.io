@@ -1,11 +1,11 @@
 include: ["_pages"]
 
-title: (KA)^2 Wedding
-email: matrimony@wedding.gov
-description: W E D D I N G.
+title: Keenan Albee
+email: test@test.com
+desicption: test
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.kristeenan.com"
-repository: "albee/kristeenan-wedding"
+url: "albee.github.io"
+repository: "albee/website"
 
 # Build settings
 theme: minimal-mistakes-jekyll
@@ -15,9 +15,8 @@ plugins:
 minimal_mistakes_skin: "air" #, "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 teaser: /assets/images/click.png
-
 logo: /assets/images/click.png
-masthead_title: "(KA)^2 Wedding"
+masthead_title: "Keenan Albee"
 
 defaults:
   # _pages
