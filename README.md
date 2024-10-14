@@ -18,6 +18,8 @@ bundle exec jekyll serve
 # navigate to http://localhost:4000
 ```
 
+For github pages deployment, see `.github/workflows/jekyll.yml`
+
 ## Notes
 
 For anyone happening on this page, I highly recommend [this blog post](https://geekdude.github.io/tech/new-website/) for resources on
