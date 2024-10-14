@@ -1,12 +1,11 @@
-Hello world!
-# kristeenan-wedding
+# albee-research-site
 
-This is the wedding static source for kristeenan.com!
+This is a Jekyll-based static site for my research work!
 
 ## Details
 
-- Hosting service: netlify, via GitHub pages
-- Domain service: Google
+- Hosting service: GitHub pages
+- Domain service: whatever github provides internally for *.github.io domains
 
 ## Usage
 

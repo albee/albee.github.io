@@ -6,17 +6,18 @@ permalink: "/"
 comments: true
 ---
 
-![hi!]({{ site.url }}{{ site.baseurl }}/assets/images/about.png)
+<p style="float: right; margin-left: 15px; margin-bottom: 10px;">
+  <img src="/assets/images/albee_main.png" alt="Example Image" width="200" />
+</p>
 
-### Biography
-Dr. Keenan Albee is a Robotics Technologist in the Maritime and Multi-Agent Autonomy group at NASA's Jet Propulsion Laboratory. Keenan received a Ph.D. in Aeronautics and Astronautics (Autonomous Systems) from MIT in 2022 under a NASA Space Technology Research Fellowship.
+I'm a Robotics Technologist in the Maritime and Multi-Agent Autonomy group at NASA's Jet Propulsion Laboratory, California Institute of Technology. I am broadly interested in autonomy for mobile robotic systems operating in challenging environments: often this means operating in situations that are *uncertain, unknown, or unstructured*. Increasingly, this also means seeking out safety guarantees, learning-based solutions, and real-time performance on resource-constrained embedded platforms. The overarching goal is to make autonomous robotic operations safer and more efficient when human-in-the-loop operation becomes infeasible, risky, or wasteful.
 
-At MIT, Keenan was the lead for the Space Systems Laboratory's research involving the Astrobee robots aboard the ISS, running multiple international on-orbit robotic autonomy collaborations such as autonomous rendezvous with tumbling targets. Keenan's research focuses on motion planning and control under uncertainty for mobile robotic systems, leveraging real-time tools to make autonomous robotic operations safer and more efficient. At JPL, Keenan continues to work on deploying innovative robotic systems in new and challenging environments.
+This often involves extending and inventing new tools from **optimal control**, **numerical optimization**, **reinforcement learning**, **machine learning**, **motion planning**, and their interplay with **state estimation, localization, and perception**. You can learn a bit more in my [about](/about/) page. I am particularly excited about:
 
-### Education
-Ph.D. in Aeronautics and Astronautics (Autonomous Systems), Massachusetts Institute of Technology, 2022
-S.M. in Aeronautics and Astronautics, Massachusetts Institute of Technology, 2019
-B.S. in Mechanical Engineering, Columbia University, 2017
+* Infusing learning-based tools into planning and control to improve efficiency and safety under imperfect knowledge.
+* Providing or enhancing safety guarantees for uncertain dynamical systems, including when new information is revealed online.
+* Considering perception, localization, and "information gain" explicitly in robotic planning.
+* Autonomy frameworks incorporating the above for exploration, space, and other extreme environment robotics applications.
 
-### Research Interests
-Robotic motion planning; safe motion planning under uncertainty; model predictive control, optimal control, and trajectory optimization; information-theoretic planning
+
+---
