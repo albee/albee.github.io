@@ -8,9 +8,10 @@ comments: true
 
 ### Projects and Platforms
 
-<p style="float: right; margin-left: 15px; margin-bottom: 10px;">
-  <img src="/assets/images/astrobee_td.gif" alt="Example Image" width="300" />
-</p>
+<div class="image-container">
+  <img src="{{ '/assets/images/astrobee_td.gif' | relative_url }}"
+       class="responsive-image">
+</div>
 
 
 I value a balance between theory and practice. Where possible, I like to get robots into the field to uncover new algorithmic insights and verify performance in complex situations that often break initial algorithmic assumptions. My algorithms have flown on-orbit multiple times and I am responsible for multiple autonomy "firsts" that will fly to the moon on NASA's CADRE lunar rovers in the near future on the Intuitive Machines-3 lander[^1]. My work includes the first autonomous on-orbit rendezvous with an uncharacterized tumbling target; the (soon-to-be!) first model predictive controller to run on another celestial body; and the (soon-to-be!) first distributed algorithm in a multi-agent space exploration mission. I was a contributing developer to NASA's Astrobee platform[^2], and was the last researcher to work with MIT's [SPHERES](https://en.wikipedia.org/wiki/SPHERES) platform. My favorite applications are in the space domain, including planetary surface robotics, microgravity robotics, and other canonical problem areas like powered descent guidance. I also work on broadly applicable platforms, including medical robotic devices, maritime robotics, and ground vehicle robotics.
@@ -35,4 +36,4 @@ I'm an avid backpacker, skier, and gravel biker/bikepacker. I also scuba dive an
 ---
 
 [^1]: Acknowledgment to my many collaborators here including but not limited to: Abhishek Cauligi, Brian Coltin, Monica Ekal, Federico Rossi, Sriramya Bhamidipati, Caroline Specht, Roberto Lampariello, and others.
-[^2]: [Here](https://github.com/nasa/astrobee?tab=readme-ov-file#documentation) is my flight software guide for autonomy researchers using Astrobee, a fantastic research platform developed by NASA Ames' Intelligent Robotics Group.)
+[^2]: [Here](https://github.com/nasa/astrobee?tab=readme-ov-file#documentation) is my flight software guide for autonomy researchers using Astrobee, a fantastic research platform developed by NASA Ames' Intelligent Robotics Group.

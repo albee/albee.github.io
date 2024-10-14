@@ -6,9 +6,11 @@ permalink: "/"
 comments: true
 ---
 
-<p style="float: right; margin-left: 15px; margin-bottom: 10px;">
-  <img src="/assets/images/albee_main.png" alt="Example Image" width="200" />
-</p>
+<div class="image-container">
+  <img src="{{ '/assets/images/albee_main.png' | relative_url }}"
+       class="responsive-image"
+       style="max-height: 300px; width: auto; height: auto;">
+</div>
 
 I'm a Robotics Technologist in the Maritime and Multi-Agent Autonomy group at NASA's Jet Propulsion Laboratory, California Institute of Technology. I am broadly interested in autonomy for mobile robotic systems operating in challenging environments: often this means operating in situations that are *uncertain, unknown, or unstructured*. Increasingly, this also means seeking out safety guarantees, learning-based solutions, and real-time performance on resource-constrained embedded platforms. The overarching goal is to make autonomous robotic operations safer and more efficient when human-in-the-loop operation becomes infeasible, risky, or wasteful.
 
