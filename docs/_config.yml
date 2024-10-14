@@ -5,7 +5,6 @@ email: test@test.com
 desicption: test
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://albee.github.io"
-repository: "albee/website"
 
 # Build settings
 baseurl: ""
