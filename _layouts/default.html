@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    {% include head-custom.html %}
+  </head>
+  <body class="gradient">
+    <div class>
+      <div class="container">
+        <div class="row justify-content-center text-xl-start text-center gx-4 pt-4 ">
+          <div class="col-10 col-xl-5 mt-2 pt-4 header d-flex flex-column">
+            <div class="row">
+              <div class="col-12">
+                <h1 class="inter-banner"> Keenan Albee </h1>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-12">
+                <h4 class="subhead">
+                    Robotics Technologist,<br> <a  href="https://www-robotics.jpl.nasa.gov/">Jet Propulsion Laboratory</a> <br>
+                    Assistant Professor,<br> <a href="https://viterbi.usc.edu">University of Southern California</a> (incoming) <br>  
+                </h4>
+              </div>
+            </div>
+            <div class="row links justify-content-center my-auto">
+              {% include links.html %}
+            </div>
+          </div>
+          <div class="col-2 d-none d-xl-inline-block mt-2 pt-2">
+            <img class="img-fluid rounded-circle py-auto" style="max-height: 15rem;" src="/assets/images/keenan_is_outdoors.png" 
+              alt="Picture of Keenan."/>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <main class="container">
+      <div class="row justify-content-center">
+        <div class="col-10 col-xl-6">
+          <hr />
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        {{ content }}
+      </div>
+    </main>
+      {% include footer.html %}
+    
+      <script src="assets/js/content_switch.js"></script>
+  </body>
+</html>

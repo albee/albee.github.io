@@ -9,6 +9,8 @@ This is a Jekyll-based static site for my research work!
 
 ## Usage
 
+You'll need to install bootstrap locally, `npm init -y && npm install bootstrap`.
+
 For serving content on localhost during development:
 
 ```bash
@@ -24,3 +26,8 @@ For github pages deployment, see `.github/workflows/jekyll.yml`
 
 For anyone happening on this page, I highly recommend [this blog post](https://geekdude.github.io/tech/new-website/) for resources on
 how to work with Jekyll/Github Pages.
+
+## Nice-to-have
+
+- [ ] big name
+-[ ] links at top
