@@ -33,19 +33,19 @@ jobs:
           ruby-version: '3.1' # Ensure you're using a supported Ruby version
 
       - name: Install dependencies
-        working-directory: docs
+        working-directory: .
         run: |
           gem install bundler
           bundle install
 
       - name: Build the site
-        working-directory: docs
+        working-directory: .
         run: |
           bundle exec jekyll build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/_site
+          path: _site
 
   deploy:
     environment:
