@@ -21,7 +21,7 @@ permalink: "/"
             <a data-target="about" class="content-button">About</a>
         </div>
         <div class="col-auto">
-            <a data-target="cv" class="content-button" href="./assets/pdfs/keenan_albee_cv_2024_10.pdf">CV</a>
+            <a data-target="cv" class="content-button" href="./assets/pdfs/keenan_albee_cv.pdf">CV</a>
         </div>
         <div class="col-auto">
             <a data-target="laser" class="content-button">LASER</a>

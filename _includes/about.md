@@ -14,7 +14,7 @@ I like to get robots into the field to uncover new algorithmic insights and veri
 * S.M. in Aeronautics and Astronautics, Massachusetts Institute of Technology, 2019
 * B.S. in Mechanical Engineering, Columbia University, 2017
 
-I received a Ph.D. in aeronautics and astronautics (autonomous systems) from MIT in 2022 under a NASA Space Technology Research Fellowship. Before that, I received my B.S. in mechanical engineering (minors in computer science and history) at Columbia Univeristy in 2017. You can find my full CV [here](/assets/pdfs/keenan_albee_cv_2024_10.pdf).
+I received a Ph.D. in aeronautics and astronautics (autonomous systems) from MIT in 2022 under a NASA Space Technology Research Fellowship. Before that, I received my B.S. in mechanical engineering (minors in computer science and history) at Columbia Univeristy in 2017. You can find my full CV [here](/assets/pdfs/keenan_albee_cv.pdf).
 
 
 ### Research Interests
