@@ -7,7 +7,7 @@ This is a Jekyll-based static site for my research work!
 - Hosting service: GitHub pages
 - Domain service: whatever github provides internally for *.github.io domains
 
-## Usage
+## Local Deployment
 
 You'll need to install bootstrap locally, `npm init -y && npm install bootstrap`.
 
@@ -27,7 +27,10 @@ For github pages deployment, see `.github/workflows/jekyll.yml`
 For anyone happening on this page, I highly recommend [this blog post](https://geekdude.github.io/tech/new-website/) for resources on
 how to work with Jekyll/Github Pages.
 
-## Nice-to-have
+## Usage
 
-- [ ] big name
--[ ] links at top
+- `*.md` pages support markdown using markdownify.
+- `publications.md` supports upload of citations following the format in `_publications/`
+  - [ ] TODO: this might be cleaner to pull directly from a `.bib`
+- new images and other assets should be stored in `assets/`
+- special javascript for website features (like swapping content) should be stored in `assets/js/`
