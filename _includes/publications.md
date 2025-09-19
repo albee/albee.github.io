@@ -1,4 +1,6 @@
-Selected publications are available here. You can also find my latest work on [Google Scholar](https://scholar.google.com/citations?user=msRla_0AAAAJ&hl=en).
+### Selected Publications
+
+You can also find my latest work on [Google Scholar](https://scholar.google.com/citations?user=msRla_0AAAAJ&hl=en).
 
 {% assign publications_by_year = site.publications | group_by: "year" | reverse %}
 

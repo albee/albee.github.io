@@ -2,6 +2,13 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     {% include head-custom.html %}
+    <style>      
+      /* Site-wide smaller footnotes */
+      .footnotes { font-size: 0.85rem; line-height: 1.4; }
+      .footnotes ol li { margin-bottom: 0.35rem; }
+      /* Smaller inline footnote references (superscript numbers) */
+      sup[id^="fnref"] a, sup.footnote-ref a { font-size: 0.75em; }
+    </style>
   </head>
   <body class="fun-gradient">
     <div>
